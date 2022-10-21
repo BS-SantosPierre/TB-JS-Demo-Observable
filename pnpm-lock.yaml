@@ -13,12 +13,14 @@ specifiers:
   '@angular/platform-browser-dynamic': ^14.2.0
   '@angular/router': ^14.2.0
   '@types/jasmine': ~4.0.0
+  '@types/materialize-css': ^1.0.11
   jasmine-core: ~4.3.0
   karma: ~6.4.0
   karma-chrome-launcher: ~3.1.0
   karma-coverage: ~2.2.0
   karma-jasmine: ~5.1.0
   karma-jasmine-html-reporter: ~2.0.0
+  materialize-css: ^1.0.0
   rxjs: ~7.5.0
   tslib: ^2.3.0
   typescript: ~4.7.2
@@ -33,6 +35,7 @@ dependencies:
   '@angular/platform-browser': 14.2.7_kbr7ogish5x5hzkphqt6t2txom
   '@angular/platform-browser-dynamic': 14.2.7_q4va4uwl4uyjrhqsdbamttsfvi
   '@angular/router': 14.2.7_ly4fm4bdvhbah77mnplcqiulwi
+  materialize-css: 1.0.0
   rxjs: 7.5.7
   tslib: 2.4.0
   zone.js: 0.11.8
@@ -42,6 +45,7 @@ devDependencies:
   '@angular/cli': 14.2.6
   '@angular/compiler-cli': 14.2.7_o2wnihh65cwxeyw33dpfxjumha
   '@types/jasmine': 4.0.3
+  '@types/materialize-css': 1.0.11
   jasmine-core: 4.3.0
   karma: 6.4.1
   karma-chrome-launcher: 3.1.1
@@ -2042,8 +2046,21 @@ packages:
     resolution: {integrity: sha512-Opp1LvvEuZdk8fSSvchK2mZwhVrsNT0JgJE9Di6MjnaIpmEXM8TLCPPrVtNTYh8+5MPdY8j9bAHMu2SSfwpZJg==}
     dev: true
 
+  /@types/jquery/3.5.14:
+    resolution: {integrity: sha512-X1gtMRMbziVQkErhTQmSe2jFwwENA/Zr+PprCkF63vFq+Yt5PZ4AlKqgmeNlwgn7dhsXEK888eIW2520EpC+xg==}
+    dependencies:
+      '@types/sizzle': 2.3.3
+    dev: true
+
   /@types/json-schema/7.0.11:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
+    dev: true
+
+  /@types/materialize-css/1.0.11:
+    resolution: {integrity: sha512-V7/jSwuq6QrWAjzA2dkZhlqzrrcxcjB+RDfwhw8CosNYZgb+FaAJmmB6t7CT7SRFNRRSxG839e6iK32Vq6sZrQ==}
+    dependencies:
+      '@types/jquery': 3.5.14
+      cash-dom: 8.1.1
     dev: true
 
   /@types/mime/3.0.1:
@@ -2081,6 +2098,10 @@ packages:
     dependencies:
       '@types/mime': 3.0.1
       '@types/node': 18.11.2
+    dev: true
+
+  /@types/sizzle/2.3.3:
+    resolution: {integrity: sha512-JYM8x9EGF163bEyhdJBpR2QX1R5naCJHC8ucJylJ3w9/CVBaskdQ8WqBf8MmQrd1kRvp/a4TS8HJ+bxzR7ZJYQ==}
     dev: true
 
   /@types/sockjs/0.3.33:
@@ -2676,6 +2697,10 @@ packages:
 
   /caniuse-lite/1.0.30001422:
     resolution: {integrity: sha512-hSesn02u1QacQHhaxl/kNMZwqVG35Sz/8DgvmgedxSH8z9UUpcDYSPYgsj3x5dQNRcNp6BwpSfQfVzYUTm+fog==}
+    dev: true
+
+  /cash-dom/8.1.1:
+    resolution: {integrity: sha512-aMESow+8m7EuifAeNhpnRHQHN8O24gGeiR53lebD5ShBCisBCoB4y5BBe9pGXtTPP6b1qCp90W9HaaUARyc16Q==}
     dev: true
 
   /chalk/2.4.2:
@@ -4681,6 +4706,10 @@ packages:
       - bluebird
       - supports-color
     dev: true
+
+  /materialize-css/1.0.0:
+    resolution: {integrity: sha512-4/oecXl8y/1i8RDZvyvwAICyqwNoKU4or5uf8uoAd74k76KzZ0Llym4zhJ5lLNUskcqjO0AuMcvNyDkpz8Z6zw==}
+    dev: false
 
   /media-typer/0.3.0:
     resolution: {integrity: sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==}

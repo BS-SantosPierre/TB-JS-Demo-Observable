@@ -2,7 +2,8 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "cli": {
-    "packageManager": "pnpm"
+    "packageManager": "pnpm",
+    "analytics": "52a7d4d3-a2c0-4e65-810f-3a1fb1acf620"
   },
   "newProjectRoot": "projects",
   "projects": {
@@ -32,9 +33,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+							"./node_modules/materialize-css/dist/css/materialize.css"
             ],
-            "scripts": []
+            "scripts": [
+							"./node_modules/materialize-css/dist/js/materialize.js"
+						]
           },
           "configurations": {
             "production": {
